@@ -1,0 +1,9 @@
+build:
+	make -C build
+
+execute:
+	./build/nvx -f sample/nvx.tga -o sample/nvx.obj
+
+.PHONY: build execute
+.IGNORE:
+.SILENT:
